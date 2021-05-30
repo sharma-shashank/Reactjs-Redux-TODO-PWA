@@ -7,6 +7,17 @@ function TodoItem({ todo }) {
     const [name, setName] = useState(todo.name)
     let dispatch = useDispatch();
 
+    const updateTodos = () => {
+        setName(todo.name);
+        dispatch(updateTodo({
+            ...todo,
+            name: name
+        }));
+        setEditable(!editable);
+    }
+
+    const deleteTodos = () => dispatch(deleteTodo(todo.id));
+
     return (
         <div>
             <div className="row mx-2 align-items-center">
@@ -24,21 +35,10 @@ function TodoItem({ todo }) {
                         <h4>{todo.name}</h4>}
                 </div>
                 <button className="btn btn-primary m-2"
-                    onClick={() => {
-                        dispatch(updateTodo({
-                            ...todo,
-                            name: name
-                        }))
-                        if(editable) {
-                         setName(todo.name);   
-                        }
-                        setEditable(!editable);
-                      
-
-                    }}
-                >{editable?"Update":"Edit"}</button>
+                    onClick={updateTodos}
+                >{editable ? "Update" : "Edit"}</button>
                 <button className="btn btn-danger m-2"
-                    onClick={() => dispatch(deleteTodo(todo.id))}
+                    onClick={deleteTodos}
                 >Delete</button>
             </div>
         </div>
