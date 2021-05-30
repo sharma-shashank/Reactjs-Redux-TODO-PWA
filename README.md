@@ -11,7 +11,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 Language:- Javascript, HTML/CSS
 Framworks:- Reactjs, Redux
 
-This app utilises concepts of Redux for managing the states.
+- Uses concepts of Hooks and functional components
+
+- Utilises concepts of Redux for managing the states.
 
 ### PWA functionalities
 
