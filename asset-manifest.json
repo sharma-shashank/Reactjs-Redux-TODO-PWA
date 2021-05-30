@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Reactjs-Redux-TODO-PWA/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/Reactjs-Redux-TODO-PWA/static/js/main.ab10bcff.chunk.js",
+    "main.js.map": "/Reactjs-Redux-TODO-PWA/static/js/main.ab10bcff.chunk.js.map",
+    "runtime-main.js": "/Reactjs-Redux-TODO-PWA/static/js/runtime-main.ca52ac61.js",
+    "runtime-main.js.map": "/Reactjs-Redux-TODO-PWA/static/js/runtime-main.ca52ac61.js.map",
+    "static/css/2.ef9168ec.chunk.css": "/Reactjs-Redux-TODO-PWA/static/css/2.ef9168ec.chunk.css",
+    "static/js/2.5083885f.chunk.js": "/Reactjs-Redux-TODO-PWA/static/js/2.5083885f.chunk.js",
+    "static/js/2.5083885f.chunk.js.map": "/Reactjs-Redux-TODO-PWA/static/js/2.5083885f.chunk.js.map",
+    "index.html": "/Reactjs-Redux-TODO-PWA/index.html",
+    "static/css/2.ef9168ec.chunk.css.map": "/Reactjs-Redux-TODO-PWA/static/css/2.ef9168ec.chunk.css.map",
+    "static/css/main.9d5b29c0.chunk.css.map": "/Reactjs-Redux-TODO-PWA/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.5083885f.chunk.js.LICENSE.txt": "/Reactjs-Redux-TODO-PWA/static/js/2.5083885f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ca52ac61.js",
+    "static/css/2.ef9168ec.chunk.css",
+    "static/js/2.5083885f.chunk.js",
+    "static/css/main.9d5b29c0.chunk.css",
+    "static/js/main.ab10bcff.chunk.js"
+  ]
+}
