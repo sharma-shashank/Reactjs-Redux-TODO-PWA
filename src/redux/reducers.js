@@ -15,14 +15,15 @@ export let reducer = (state = todos, action) => {
             return newTodos;
         case UPDATE_TODO:
             newTodos = [...state];
-            let index = -1;
-            for (let i = 0; i < newTodos.length; i++) {
-                index++;
-                if (newTodos[i].id == action.payload.id) {
-                    break;
-                }
+            const index = newTodos.findIndex(({ id }) => id === action.payload.id);
+            // let index = -1;
+            // for (let i = 0; i < newTodos.length; i++) {
+            //     index++;
+            //     if (newTodos[i].id == action.payload.id) {
+            //         break;
+            //     }
 
-            }
+            // }
             if (index != -1) {
                 newTodos[index] = action.payload;
                 return newTodos;
